@@ -4,6 +4,8 @@
 
 Thermal subsystem design for a Venus atmospheric aerobot operating at 35-50 km altitude. Developed complete thermal management solution for extreme Venusian environment with 400 K temperatures and 90 m/s winds.
 
+![Concept of Operations](concept_of_operations.png)
+
 ---
 
 ## Mission Context
@@ -15,6 +17,8 @@ Thermal subsystem design for a Venus atmospheric aerobot operating at 35-50 km a
 **Primary Challenge:** 30 kW convective heat transfer from high-speed winds
 
 **Role:** Thermal Subsystem Engineer
+
+![Aerobot System CAD](grey_box_CAD_of_aerobot.png)
 
 ---
 
@@ -108,6 +112,8 @@ Both cases well into turbulent regime, requiring Churchill-Bernstein approach fo
 ---
 
 ## Thermal Load Analysis
+
+![Heat Flow Analysis - Hot and Cold Cases](Heat%20Flow%20Maps.png)
 
 ### Hot Case (400 K Environment - Maximum Cooling Required)
 
@@ -698,6 +704,14 @@ From PDR: "Nevertheless, localized surface degradation can occur and thus **mult
 - **Figure 14:** Heat flow map of hottest condition (400 K, 30 kW cooling required)
 - **Figure 15:** Heat flow map of coldest condition (350 K, 11 kW heating required)
 
+### Visual Assets
+
+All images referenced in this README are available in the repository:
+
+- `concept_of_operations.png` - Mission concept of operations overview
+- `grey_box_CAD_of_aerobot.png` - System-level CAD model of aerobot
+- `Heat Flow Maps.png` - Combined heat flow analysis for hot and cold cases
+
 ---
 
 ## Lessons Learned
@@ -750,3 +764,5 @@ Stony Brook University
 ---
 
 **Project Status:** Preliminary Design Review Complete — All thermal requirements met
+
+**Repository:** [github.com/Shafayat-Alam/Venus-Aerobot-Thermal-Subsystem](https://github.com/Shafayat-Alam/Venus-Aerobot-Thermal-Subsystem)
